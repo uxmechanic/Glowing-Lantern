@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Glowing Lantern</title>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js" language="javascript" type="text/javascript"></script>
+<script src="chilimili.js/chilimili.js" language="javascript" type="text/javascript"></script>
+<script src="scripts.js" language="javascript" type="text/javascript"></script>
+<style type="text/css">
+	body{
+		padding: 0 40%;
+		background-color:#000;
+	}
+	h1{
+		color: #fff;
+		font-size: 60px;
+		position: absolute;
+		left: 10;
+		width: 480px;
+		bottom: -10;
+	}
+	h1 a{
+		color:gold;
+		text-decoration:none;
+	}
+	h2{
+		color: #fff;
+		font-size: 30px;
+		position: absolute;
+		right: 10;
+		bottom: -10;
+	}
+	h2 strong{
+		color:gold;
+	}
+	h2 em{
+		font-size:20px;
+		letter-spacing:2px;
+	}
+	.lantern_effect{
+		position:relative;
+		left:100px;		
+	}
+	.lantern_effect img{
+		position:absolute;
+	}
+	.lantern_effect img.glow{
+		display:none;
+	}
+	.author_pic{
+		border:3px solid gold;
+		width:100px;
+		border-radius:3px;
+		position:absolute;
+		right:10;
+		top:10;
+	}
+	.author_pic img{
+		display:block;
+		width:100px;
+	}
+</style>
+</head>
+<body>
+<div class="lantern_effect">
+<img src="lantern.png" class="plain" />
+<img src="glowing-lantern.png" class="glow" />
+</div>
+<h1><a href="https://github.com/fahadmahmood8/chilimili.js" target="_blank">jQuery/ChiliMili.js</a> based <br>
+<a href="https://github.com/uxmechanic/Glowing-Lantern" target="_blank">Glowing Lantern</a> <br>
+by <br>
+<a href="https://profiles.wordpress.org/aqibraza" target="_blank">Aqib Raza</a></h1>
+<div class="author_pic">
+<a href="https://profiles.wordpress.org/aqibraza" target="_blank">
+<img src="http://www.gravatar.com/avatar/6088b4c5b83e3d80bc9e22537811b2a3?d=mm&s=300&r=G" />
+</a>
+</div>
+<h2><strong>cm.glow(</strong><em>container</em><strong>,</strong> <em>object</em><strong>,</strong> <em>fade_in_amount</em><strong>,</strong> <em>fade_out_amount</em><strong>,</strong> <em>start_interval</em><strong>);</strong></h2>
+</body>
+</html>
